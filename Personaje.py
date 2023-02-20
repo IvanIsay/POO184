@@ -19,5 +19,5 @@ class Personaje:
     def recargarArma(self, municiones):
         cargador= 10
         cargador= cargador + municiones
-        print("El arma tiene "+ cargador +" balas")
+        print("El arma tiene "+ str(cargador) +" balas")
              
